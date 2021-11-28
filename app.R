@@ -4,7 +4,7 @@ library(shinyjs)
 library(rhandsontable)
 
 #####Load Data#####
-load("ksa_cmr.Rdata")
+load("ksa_cmr.RData")
 
 #####Run custom functions####
 makeElement <- function(data, name)
